@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Mazzard H";
+    src: url("../../public/fonts/MazzardH-Bold.woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Mazzard H";
+    src: url("../../public/fonts/MazzardH-Regular.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Mazzard H";
+    src: url("../../public/fonts/MazzardH-SemiBold.woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Mazzard M";
+    src: url("../../public/fonts/MazzardM-Bold.woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Mazzard M";
+    src: url("../../public/fonts/MazzardM-Regular.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Mazzard M";
+    src: url("../../public/fonts/MazzardM-SemiBold.woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Mazzard M";
+    src: url("../../public/fonts/MazzardM-Medium.woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Mazzard M";
+    src: url("../../public/fonts/MazzardM-Light.woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@layer components {
+  .h3 {
+    @apply font-mazzardM text-[38px] font-[700] tracking-[0.3rem];
+  }
+  .p {
+    @apply font-mazzardH font-[400] text-[16px] ip:text-[20px] ;
+  }
+  .b-p {
+    @apply font-mazzardH font-[400] text-[12px] ip:text-[15px] ;
+  }
+}
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+.isblack{
+  color: #000000;
+}
+
+border-black{
+  border: #000000;
+}
